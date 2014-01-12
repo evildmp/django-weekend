@@ -171,7 +171,7 @@ INSTALLED_APPS = (
     'treeadmin',
     'django_easyfilters',
     'pagination',
-    'inspector',
+    # 'inspector',
 
     # core Django applications
     # these should be last, so we can override their templates
