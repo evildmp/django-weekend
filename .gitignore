@@ -39,6 +39,7 @@ _design
 _content
 _tmp
 dist
+build
 
 filer
 filer_thumbnails
