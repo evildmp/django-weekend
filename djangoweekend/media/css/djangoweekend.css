@@ -76,7 +76,7 @@ h2  {
 h3  {
     padding-top: 10px;
     font-weight: bold;
-    color: #844;
+    color: #a93125;
     }
 
 h4  {
@@ -131,7 +131,7 @@ p.subtitle:first-line {
 
 .larger    {font-size: 130%;}
 .border-top {border-top: 1px solid #ccc;}
-.paper  {
+.paper {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px;
@@ -153,3 +153,49 @@ div.footer {
 div.footer a {text-decoration: none;}
 
 div.footer .caps {font-size: 100%;}
+
+.filterline {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80%;
+}
+
+.filterline .choice-count {
+    font-weight: lighter;
+    color: #bbb;
+}
+
+.removefilter a:link,
+.removefilter a:visited {
+    border-radius: 4px;
+    padding: 0px 1px 2px 3px;
+    border: 1px solid #113399;
+    background-color: #113399;
+    color: white;
+}
+
+.addfilter a:link,
+.addfilter a:visited {
+    border-radius: 4px;
+    padding: 0px 1px 2px 3px;
+    border: 1px solid #a93125;
+    background-color: #a93125;
+    color: white;
+}
+
+/* :hover come after to override */
+.addfilter a:hover,
+.removefilter a:hover {
+    border-radius: 4px;
+    padding: 0px 1px 2px 3px;
+    border: 1px solid #3355bb;
+    background-color: #3355bb;
+    color: white;
+}
+
+.displayfilter {
+    border-radius: 4px;
+    padding: 0px 1px 2px 3px;
+    border: 1px solid #aaa;
+    background-color: #aaa;
+    color: black;
+}

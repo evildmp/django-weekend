@@ -122,6 +122,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
+    'pagination.middleware.PaginationMiddleware',
 )
 
 ROOT_URLCONF = 'djangoweekend.urls'
@@ -166,8 +167,11 @@ INSTALLED_APPS = (
     'typogrify',
     'filer',
     'widgetry',
-    # 'south', # don't leave this disabled
+    'south', # don't leave this disabled
     'treeadmin',
+    'django_easyfilters',
+    'pagination',
+    'inspector',
 
     # core Django applications
     # these should be last, so we can override their templates
