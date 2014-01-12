@@ -1,0 +1,115 @@
+body {
+    width: 1144px;
+    padding: 40px 0 20px;
+    margin: auto;
+    font-family: Baskerville, "Baskerville Old Face", Garamond, "Times New Roman", Times, serif;
+    font-size: 100%;
+    line-height: 1.2;
+    background: white url("/media/css/images/paper.jpg") 25% 25%;
+}
+
+div#outer-wrapper {
+     border-width:50px;
+    -moz-border-image: url("/media/css/images/cardboard.jpg") 30 repeat ;
+    -webkit-border-image: url("/media/css/images/cardboard.jpg") 30 repeat;
+    border-image: url("/media/css/images/cardboard.jpg") 30 repeat ;
+    box-shadow: 2px 2px 8px 4px rgba(6,6,6,.5);
+    opacity: 1;
+}
+
+div#inner-wrapper {
+    border: 2px solid black;
+    background: #fff url("/media/css/images/ricepaper.png") top center;
+    padding: 0 40px 20px;
+    opacity: 1;
+}
+
+
+ul.menu {
+    background: black;
+    margin: 0 -40px 20px;
+    padding: 10px 40px;
+    font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif;
+    }
+
+ul.menu li  {margin-left: 0;}
+ul.menu ul li {padding-left: 1em;}
+
+ul.menu li.menu_item a	{
+    font-weight: normal;
+	text-decoration: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+	}
+
+ul.menu ul ul li {
+}
+
+ul.menu ul ul li {
+	padding-top: 8px;
+	border-top: 1px solid white;
+    background: #333;
+    padding-left: 0;
+    font-size: 80%;
+}
+
+
+
+p {padding: .25em 0;}
+ul, ol  {list-style: square;}
+li  {margin-left: 1em; padding: .25em 0}
+
+h1, h2, h3, h4, h5, h6 {font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif;}
+
+h1 {
+    font-size: 200%;
+    padding: 0 0 15px;
+}
+
+h2  {
+    font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: 0;
+}
+
+h3  {
+	padding-top: 5px;
+    font-weight: bold;
+    color: #555;
+    }
+
+h4  {
+    font-weight: bold;
+    font-size: 90%;
+    }
+
+h5  {
+    font-weight: bold;
+    font-size: 80%;
+    }
+
+h6  {
+    font-weight: bold;
+    font-size: 70%;
+    }
+
+a:link, a:visited  {font-weight: bold; color: #B2252A;}
+a:link:hover, a:visited:hover  {font-weight: bold; color: black;}
+
+.imageset .image-title  {
+    font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif;
+    font-weight: 200;
+    text-transform: none;
+}
+
+.shadowed .anythingSlider,
+.shadowed ul.imageset.multiple li a,
+.shadowed span.imageset.image img  {
+  box-shadow:   2px 2px 8px 2px rgba(4,4,4,0.5);
+    }
+
+.larger    {font-size: 130%;}
+.border-top {border-top: 1px solid #ccc;}
+

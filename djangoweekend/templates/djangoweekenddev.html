@@ -1,0 +1,14 @@
+{% extends "arkestra.html" %}
+{% load typogrify_tags %}
+
+{% block site_styles %}
+    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/djangoweekend.css" />
+{% endblock site_styles %}
+
+{% block body_content %}
+    {% with placeholder_width=960 generic_main_width=627 %}
+        {{ block.super }}
+    {% endwith %}
+{% endblock body_content %}
+
+{% block pagetitle %}{% endblock pagetitle %}
