@@ -164,10 +164,14 @@ div.footer .caps {font-size: 100%;}
     color: #bbb;
 }
 
+.filterline a, .filterline a:hover {
+    font-weight: normal;
+}
+
 .removefilter a:link,
 .removefilter a:visited {
     border-radius: 4px;
-    padding: 0px 1px 2px 3px;
+    padding: 2px 3px;
     border: 1px solid #113399;
     background-color: #113399;
     color: white;
@@ -176,7 +180,7 @@ div.footer .caps {font-size: 100%;}
 .addfilter a:link,
 .addfilter a:visited {
     border-radius: 4px;
-    padding: 0px 1px 2px 3px;
+    padding: 2px 3px;
     border: 1px solid #a93125;
     background-color: #a93125;
     color: white;
@@ -186,7 +190,7 @@ div.footer .caps {font-size: 100%;}
 .addfilter a:hover,
 .removefilter a:hover {
     border-radius: 4px;
-    padding: 0px 1px 2px 3px;
+    padding: 2px 3px;
     border: 1px solid #3355bb;
     background-color: #3355bb;
     color: white;
@@ -194,8 +198,8 @@ div.footer .caps {font-size: 100%;}
 
 .displayfilter {
     border-radius: 4px;
-    padding: 0px 1px 2px 3px;
-    border: 1px solid #aaa;
-    background-color: #aaa;
+    padding: 2px 3px;
+    border: 1px solid black;
+    background-color: black;
     color: white;
 }
